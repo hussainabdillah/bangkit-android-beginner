@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">VALORANT</string>
+    <string name="agents_name">Agents Name</string>
+    <string name="description">Description</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="profile">Profile</string>
+    <string name="role">Role</string>
+<!--    <String name="origin">Origin</String>-->
+<!--    <String name="gender">Gender</String>-->
+<!--    <String name="biography">Biography</String>-->
+
+
+    <string-array name="data_name">
+        <item>Brimstone</item>
+        <item>Viper</item>
+        <item>Omen</item>
+        <item>Killjoy</item>
+        <item>Cypher</item>
+        <item>Sova</item>
+        <item>Sage</item>
+        <item>Phoenix</item>
+        <item>Jett</item>
+        <item>Reyna</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Joining from the USA, Brimstone orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander.</item>
+        <item>The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and choke the enemy vision. If the toxins do not kill her prey, her mind games surely will.</item>
+        <item>A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</item>
+        <item>The genius of Germany, Killjoy effortlessly secures key battlefield positions with her arsenal of inventions. If their damage does not take her enemies out, the debuff her robots provide will make short work of them.</item>
+        <item>The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</item>
+        <item>Born from the eternal winter of Russia tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.</item>
+        <item>The bastion of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.</item>
+        <item>Hailing from the U.K., Phoenix star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he got backup or not, he will rush into a fight on his own terms.</item>
+        <item>Representing her home country of South Korea, Jett agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.</item>
+        <item>Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/brimstone</item>
+        <item>@drawable/viper</item>
+        <item>@drawable/omen</item>
+        <item>@drawable/killjoy</item>
+        <item>@drawable/cypher</item>
+        <item>@drawable/sova</item>
+        <item>@drawable/sage</item>
+        <item>@drawable/phoenix</item>
+        <item>@drawable/jett</item>
+        <item>@drawable/reyna</item>
+    </integer-array>
+
+    <integer-array name="data_photo_detail">
+        <item>@drawable/brimstone_detail</item>
+        <item>@drawable/viper_detail</item>
+        <item>@drawable/omen_detail</item>
+        <item>@drawable/killjoy_detail</item>
+        <item>@drawable/cypher_detail</item>
+        <item>@drawable/sova_detail</item>
+        <item>@drawable/sage_detail</item>
+        <item>@drawable/phoenix_detail</item>
+        <item>@drawable/jett_detail</item>
+        <item>@drawable/reyna_detail</item>
+    </integer-array>
+
+    <string-array name="data_role">
+        <item>Controller</item>
+        <item>Controller</item>
+        <item>Controller</item>
+        <item>Sentinel</item>
+        <item>Sentinel</item>
+        <item>Initiator</item>
+        <item>Sentinel</item>
+        <item>Duelist</item>
+        <item>Duelist</item>
+        <item>Duelist</item>
+    </string-array>
+
+    <string-array name="data_gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="data_origin">
+        <item>United States</item>
+        <item>United States</item>
+        <item>Unknown</item>
+        <item>Germany</item>
+        <item>Morocco</item>
+        <item>Russia</item>
+        <item>China</item>
+        <item>United Kingdom</item>
+        <item>South Korea</item>
+        <item>Mexico</item>
+    </string-array>
+
+    <string-array name="data_biography">
+        <item>Hailing from the United States, Liam Byrne started his adult life as a firefighter for the BFD and then a military soldier for a Special Forces squad known as the Ragged Ravens. He served in both professions alongside a close friend who he had known since childhood. He also became affiliated with Kingdom Corporation, eventually becoming a veteran of their subsidiary K-SEC.</item>
+        <item>Sabine Callas hails from the United States, with possible links to Seattle. Holding a doctorate and awards such as the R. Francis Prize and the Denton Outstanding Innovation Award, her previous occupations include roles with Kingdom Corporation, eventually becoming its first Chief Scientific Officer on the board of advisors, and influence over the conglomerate ventures in Rabat, Morocco. At some point during her time there however, there was an incident. Little is known about what happened, but everything changed for Callas at that point after all she lost because of it, leading her to isolate and dedicate herself to pursuing vengeance instead.</item>
+        <item>Omen is a phantom of a man with mysterious origins and many names. He has a limited memory of his past, though he does remember being involved in something that caused him to be ripped apart and killed. All he knows that links to who he used to be is a place known as Point Light, a past friendship with Sabine Viper Callas, and feelings of restoration with every kill he makes. Contributing to the formation of the VALORANT Protocol, Omen would go on to become its third recruit and serve as one of its more experienced agents, all while he continues his search for answers about what truly happened to him over a decade ago.</item>
+        <item>Klara Böhringer is an inventor from Germany who was born to one parent with Germanic ancestry. A nominee for the Distinguished Inventor award, Böhringer became the lead for Kingdoms RD department at the age of 18. Incredibly successful, she had many breakthroughs during her time at Kingdom with several of her creations and innovations.</item>
+        <item>Amir El Amari (Arabic: أمير العماري; meaning "prince of the moon") hails from Rabat, Morocco. Growing up and living there in poverty at times, his city resources were depleted due to the activities of Kingdom Corporation in the area, with El Amari harboring a negative view towards them as a result. An information broker who is constantly gathering intel, El Amari mostly keeps the results of his work and his secrets close to his chest - especially those about himself. Going to great lengths to ensure no one can gather secrets on the man who knows all the secrets, El Amari has set up multiple safehouses in order to stay hidden as well as never going anywhere without wearing his black face-concealing mask. Even once recruited by the secretive VALORANT Protocol as its fifth agent, "Cypher", El Amari still keeps his face and identity hidden from his fellow agents. For now, nothing is worth the risk of removing his mask - not even for those closest to him.</item>
+        <item>Hailing from the town of Severomorsk, in Murmansk Oblast, Russia, Sasha Novikov (Russian: Саша Новиков) is an archer who became an agent for the VALORANT Protocol as its sixth recruit, Sova. With his right eye replaced with a mechanical one after he lost it, Sova primarily serves as the teams scout, gathering information and searching for targets using olden methods should technology come up short. Being highly capable and reliable both in the field and with his work, whilst also having experience with multiple radianite-related events (having traveled through a rift and having met his Omega counterpart), Sova has earned a reputation of being one of the Protocol most trusted agents, especially to the organization commander, Brimstone.</item>
+        <item>Wei Ling Ying (Chinese: 魏玲瑩) is a radiant monk coming from China. Going on to become an agent for the VALORANT Protocol as its seventh recruit, Sage, Wei was able to work her way quickly up the ranks, with the Protocol superiors identifying natural leadership qualities in her. Sage is currently active in VALORANT radiant agent recruitment and training, interacting with multiple new radiants upon recruitment and taking the lead on its radiant training program.</item>
+        <item>Jamie Adeyemi is a radiant hailing from the Peckham district in London, England. Growing up, Adeyemi attended a Performing Arts school in the area but was later suspended. Recruited into the VALORANT Protocol as its ninth agent, Phoenix, Adeyemi was heavily involved with the Protocol activities from 10 AFL onwards. With much information kept from him as need-to-know as a recent recruit, he was unable to prevent a spike detonation in Venice whilst on a solo mission. Phoenix was given another opportunity to stop one the next day when another attack occurred in Rabat, and it was here that he first came face-to-face with the sole perpetrator, his own Omega counterpart. Frustrated with how much was being kept in the dark, despite going on to prevent the detonation this time with the help of a team, Phoenix was finally filled in on the threat posed by Omega Earth.</item>
+        <item>Han Sunwoo (Korean: 한선우) hails from South Korea, with possible links to the Insa-dong neighborhood in Seoul. As a chef in her early life, she was involved in an incident relating to her wind-like radiant powers at the restaurant she worked at, causing a freak storm that all but destroyed the building. Han fled the scene soon after. Later on, Han would be recruited by the VALORANT Protocol to become its tenth agent, Jett. Whilst working for the Protocol however, an incident occurred in Venice that destroyed part of the city. When authorities issued warrants for the arrests of the perpetrators, one of them was revealed to look exactly identical to Jett.</item>
+        <item>Zyanya Mondragón is a Radiant from Mexico with the power to absorb life energy from the souls of people that she kills. After being affected by a disastrous event involving machines, Mondragón has a strong dislike for technology and humanity, believing herself and her fellow Radiants to be the true future for Earth. Before her time as a VALORANT Protocol agent, she set up a sanctuary to help people escape from Kingdom and heal, establishing a community there and becoming their protector and avenger.</item>
+    </string-array>
+
+
+</resources>

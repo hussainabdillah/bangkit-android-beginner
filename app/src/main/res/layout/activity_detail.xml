@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/iv_detail_photo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/brimstone_detail" />
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_detail_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorTextPrimary"
+            android:fontFamily="@font/poppins"
+            android:text="@string/agents_name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_agent_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_detail_name"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/colorTextSecondary"
+            android:layout_alignParentStart="true"
+            android:text="Role: " />
+
+        <TextView
+            android:id="@+id/tv_agent_origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_agent_role"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/colorTextSecondary"
+            android:layout_alignParentStart="true"
+            android:text="Origin: " />
+
+        <TextView
+            android:id="@+id/tv_agent_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_agent_origin"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/colorTextSecondary"
+            android:layout_alignParentStart="true"
+            android:text="Gender: " />
+
+        <TextView
+            android:id="@+id/tv_agent_biography_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_agent_gender"
+            android:layout_marginTop="16dp"
+            android:text="Biography"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_agent_biography"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_agent_biography_title"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorTextSecondary"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Agent's biography goes here..." />
+    </RelativeLayout>
+</ScrollView>
+

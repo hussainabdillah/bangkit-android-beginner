@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna-warna yang Anda definisikan di sini -->
+    <color name="colorPrimary">#0E1923</color>
+    <color name="colorPrimaryDark">#081017</color>
+    <color name="colorAccent">#FF4B50</color>
+    <color name="colorBackground">#0E1923</color>
+    <color name="colorTextPrimary">#F6F3F9</color>
+    <color name="colorTextSecondary">#E5E5E5</color>
+
+    <!-- Anda juga bisa menambahkan warna-warna kustom lainnya -->
+    <color name="customColor">#F6F3F9</color>
+</resources>
